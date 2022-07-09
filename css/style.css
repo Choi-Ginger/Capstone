@@ -1,14 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-}
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   background: var(--bg-color);
   color: var(--font-color);
 }
+
+/* start header */
 header {
   background-color: var(--bg-color);
   padding: 0px;
@@ -39,16 +37,21 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-right: 25px;
-    padding-left: 25px;
+  padding-left: 25px;
 }
 .navbar-collapse {
   flex-grow: 0;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
   color: var(--heading-color);
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 600;
 }
 .navbar .navbar-brand {
@@ -66,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   font-weight: 400;
   position: relative;
-  color:black;
+  color: black;
 }
 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
   color: #149a44;
@@ -76,3 +79,4 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s ease;
   position: relative;
 }
+/* end header */
