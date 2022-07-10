@@ -1,14 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Jost", sans-serif;
+  background: #151515;
+  color: #afafaf;
+  box-sizing: border-box;
 }
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Jost', sans-serif;
-  background: var(--bg-color);
-  color: var(--font-color);
-}
+
+/* start header */
 header {
   background-color: var(--bg-color);
   padding: 0px;
@@ -39,17 +38,23 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-right: 25px;
-    padding-left: 25px;
+  padding-left: 25px;
+  color: #ddd;
 }
 .navbar-collapse {
   flex-grow: 0;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
-  color: var(--heading-color);
-  font-family: 'Jost', sans-serif;
-  font-weight: 600;
+  color: #ddd;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
 }
 .navbar .navbar-brand {
   margin: 0;
@@ -66,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   font-weight: 400;
   position: relative;
-  color:black;
+  color: #ddd;
 }
 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
   color: #149a44;
@@ -76,3 +81,19 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s ease;
   position: relative;
 }
+.navbar-expand-lg .navbar-nav .nav-item.active .nav-link:hover{
+  color: #149a44 ;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover:before, a.dropdown-item:hover:before {
+  width: 100%;
+}
+a.nav-link:before, a.dropdown-item:before {
+  position: absolute;
+  content: '';
+  background:#149a44 ;
+  width: 0px;
+  height: 2px;
+  bottom: 13px;
+  transition: all 0.5s;
+}
+/* end header */
