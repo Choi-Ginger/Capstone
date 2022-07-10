@@ -4,6 +4,7 @@
   font-family: "Jost", sans-serif;
   background: var(--bg-color);
   color: var(--font-color);
+  box-sizing: border-box;
 }
 
 /* start header */
