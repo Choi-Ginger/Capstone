@@ -2,8 +2,13 @@
   margin: 0;
   padding: 0;
   font-family: "Jost", sans-serif;
+<<<<<<< HEAD
   background: #151515;
   color: #afafaf;
+=======
+  background: var(--bg-color);
+  color: var(--font-color);
+>>>>>>> bcbef9aaa856699ab61fccf05d7da9a61b3e1d5f
   box-sizing: border-box;
 }
 
@@ -39,7 +44,10 @@ header {
   justify-content: space-between;
   padding-right: 25px;
   padding-left: 25px;
+<<<<<<< HEAD
   color: #ddd;
+=======
+>>>>>>> bcbef9aaa856699ab61fccf05d7da9a61b3e1d5f
 }
 .navbar-collapse {
   flex-grow: 0;
@@ -52,9 +60,15 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   color: #ddd;
   font-family: "Jost", sans-serif;
   font-weight: 500;
+=======
+  color: var(--heading-color);
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+>>>>>>> bcbef9aaa856699ab61fccf05d7da9a61b3e1d5f
 }
 .navbar .navbar-brand {
   margin: 0;
@@ -71,7 +85,11 @@ h6 {
   font-size: 20px;
   font-weight: 400;
   position: relative;
+<<<<<<< HEAD
   color: #ddd;
+=======
+  color: black;
+>>>>>>> bcbef9aaa856699ab61fccf05d7da9a61b3e1d5f
 }
 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
   color: #149a44;
@@ -81,6 +99,7 @@ h6 {
   transition: all 0.5s ease;
   position: relative;
 }
+<<<<<<< HEAD
 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link:hover{
   color: #149a44 ;
 }
@@ -97,3 +116,37 @@ a.nav-link:before, a.dropdown-item:before {
   transition: all 0.5s;
 }
 /* end header */
+=======
+/* end header */
+
+/* start carousel */
+/* end carousel */
+
+/* start about */
+/* end about */
+
+/* start services */
+
+/* end services */
+
+/* start chooseUs */
+/* end chooseUs */
+
+/* start award */
+/* end award */
+
+/* start plan */
+/* end plan */
+
+/* start nutriton */
+/* end nutriton */
+
+/* start testimonials */
+/* end testimonials */
+
+/* start contact */
+/* end contact */
+
+/* start footer */
+/* end footer */
+>>>>>>> bcbef9aaa856699ab61fccf05d7da9a61b3e1d5f
