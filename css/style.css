@@ -56,7 +56,6 @@ h6 {
   padding: 0;
   color: #ddd;
   font-family: "Jost", sans-serif;
-  font-weight: 500;
   color: #ddd;
   font-family: "Jost", sans-serif;
   font-weight: 600;
@@ -77,7 +76,6 @@ h6 {
   font-weight: 400;
   position: relative;
   color: #ddd;
-  color: black;
 }
 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
   color: #149a44;
@@ -103,9 +101,60 @@ a.nav-link:before, a.dropdown-item:before {
   transition: all 0.5s;
 }
 /* end header */
-/* end header */
+
 
 /* start carousel */
+
+.carousel-caption{
+  background:rgba(255, 255, 255, 0);
+  margin-bottom: 300px;
+  margin-right: 600px;
+}
+.carousel-caption p{
+  background-color: rgba(255, 255, 255, 0) ;
+}
+.carousel-caption h1{
+  background-color: rgba(255, 255, 255, 0) ;
+}
+.carousel-indicators{
+  background-color: rgba(255, 255, 255, 0) ;
+}
+.btn-white {
+  padding: 12px 35px;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: 0.3s ease-in;
+  border-radius: 2px solid #fff ;
+  background-color: #fff;
+  color: #149a44;
+}
+.border-btn {
+  padding: 12px 35px;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.border-btn:hover{
+  background: #fff;
+  color: #149a44;
+}
+.carousel-item h1{
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+.carousel-item h1, p{
+  text-align: start;
+  color: #ffffff;
+}
+.carousel-item p{
+  font-size: 20px;
+}
+
 /* end carousel */
 
 /* start about */
