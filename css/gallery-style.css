@@ -5,101 +5,185 @@
   font-family: "Jost", sans-serif;
 }
 
-/* start header */
-header {
-  background-color: #fff;
-  padding: 0px;
-  transition: all 0.4s ease 0s;
-  height: 90px;
-  display: grid;
-  align-items: center;
-  box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
+/* start header */
 .fixed-top {
   position: fixed;
   top: 40px;
   right: 0;
   left: 0;
   z-index: 1030;
+  background-color: #fff;
 }
-.container {
-  max-width: 1280px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+
+.header {
+  background-color: #fff;
+  padding: 0px;
+  transition: all 0.4s ease 0s;
+  height: 90px;
+  display: grid;
+  align-items: center;
+  box-shadow: 0 3px 9px rgb(0, 0, 0, 5%);
 }
+
 .navbar {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-right: 25px;
-  padding-left: 25px;
-  color: #ddd;
+  padding: 0.5rem 1rem;
 }
-.navbar-collapse {
-  flex-grow: 0;
+
+.nav-item {
+  margin: 0 15px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-  color: #ddd;
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
-  color: #ddd;
-  font-family: "Jost", sans-serif;
-  font-weight: 600;
-}
-.navbar .navbar-brand {
-  margin: 0;
-  padding: 0;
-  font-size: 34px;
-  font-weight: 600;
-  text-transform: capitalize;
-  color: #149a44;
-}
-.navbar-expand-lg .navbar-nav .nav-link {
-  text-transform: capitalize;
-  transition: all 0.5s ease;
-  padding: 14px 0;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-  color: #ddd;
-  color: black;
-}
-.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
-  color: #149a44;
-}
-.navbar-expand-lg .navbar-nav .nav-item {
-  padding: 0 12px;
-  transition: all 0.5s ease;
-  position: relative;
-}
-.navbar-expand-lg .navbar-nav .nav-item.active .nav-link:hover {
-  color: #149a44;
-}
-.navbar-expand-lg .navbar-nav .nav-link:hover:before,
-a.dropdown-item:hover:before {
-  width: 100%;
-}
-a.nav-link:before,
-a.dropdown-item:before {
-  position: absolute;
+
+.nav-item::after {
   content: "";
-  background: #149a44;
-  width: 0px;
+  width: 0;
   height: 2px;
-  bottom: 13px;
+  background-color: #189a46;
+  display: block;
   transition: all 0.5s;
+}
+
+.nav-item:hover::after {
+  width: 90%;
+}
+
+.nav-link {
+  transition: all 0.5s;
+}
+
+.nav-item:hover .nav-link {
+  color: #189a46 !important;
+}
+
+.dropdown-menu .dropdown-item::after {
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: #189a46;
+  display: block;
+  transition: all 0.5s;
+}
+
+.dropdown-menu .dropdown-item:hover::after {
+  width: 90%;
 }
 /* end header */
 
 /* start carousel */
+.carousel {
+  position: relative;
+  margin-top: 100px;
+  padding: 1rem 0;
+  background: url(../img/banner4.jpg) no-repeat center;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  z-index: 0;
+  padding: 1rem 0;
+}
+
+.carousel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #0c0c0c;
+  opacity: 0.6;
+}
+
+.carousel h2.title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.carousel .content {
+  padding-bottom: 50px;
+}
+
+.carousel .content a {
+  text-decoration: none;
+  color: #189a46;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.carousel .content span i {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+.carousel .content span {
+  font-size: 20px;
+  color: #fff;
+}
+/* end carousel */
+
+/* start gallery */
+.gallery {
+  padding: 50px 0;
+}
+
+.gallery .gallery-title h6 {
+  font-size: 20px;
+  color: #f53626;
+  margin-bottom: 10px;
+}
+
+.gallery .gallery-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.gallery .gallery-thumb {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.gallery .gallery-thumb .item {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.gallery .gallery-thumb .item::before {
+  content: "";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  display: block;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  transform: skewX(-25deg);
+  transition: all 0.8s;
+}
+
+.gallery .gallery-thumb .item:hover::before {
+  left: 125%;
+}
+/* end gallery */
