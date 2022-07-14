@@ -248,7 +248,7 @@
 
 .footer .footer-bottom .content {
   color: #696969;
-  padding: 15px 0 15px;
+  padding: 5px 0 20px;
   font-size: 16px;
 }
 
@@ -260,3 +260,9 @@
 .footer .footer-bottom .content a:hover {
   text-decoration: underline;
 }
+
+.footer .line {
+  border-top: 2px solid #211f11;
+  padding: 10px 0;
+}
+/* end footer */
