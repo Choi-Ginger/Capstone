@@ -99,15 +99,35 @@ a.nav-link::before {
 .dropdown-menu {
   transform: translateX(-50px);
   float: none;
-  min-width: 13rem;
+  min-width: 15rem;
   padding: 1rem 0 0.3rem;
 }
 
-.dropdown-menu a:hover {
-  color: #149a44;
-  border-bottom: 1px solid red;
+.dropdown-menu a.dropdown-item {
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
+  padding-bottom: 14px;
 }
 
+.dropdown-menu a.dropdown-item:hover {
+  color: #149a44;
+}
+
+.dropdown-menu a.dropdown-item::after {
+  content: "";
+  width: 0%;
+  height: 1px;
+  background-color: #149a44;
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  transition: all 0.5s;
+}
+
+.dropdown-menu a.dropdown-item:hover::after {
+  width: 100px;
+}
 /* end header */
 
 /* start carousel */
