@@ -187,7 +187,7 @@ a.nav-link::before {
 
 /* start gallery */
 .gallery {
-  padding: 10px 0 70px;
+  padding: 10px 0 50px;
 }
 
 .gallery-top h6 {
@@ -213,6 +213,11 @@ a.nav-link::before {
   position: relative;
   margin-bottom: 40px;
   margin-right: 5px;
+}
+
+.gallery-bottom .card:hover {
+  transform: translateY(-5%);
+  transition: 0.7s;
 }
 
 .gallery-bottom .card-body h5 a {
@@ -248,4 +253,85 @@ a.nav-link::before {
   align-items: center;
 }
 
+.gallery-bottom .card-bottom span {
+  font-size: 15px;
+  margin-right: 20px;
+  color: gray;
+}
+
+.gallery li.page-item a.page-link {
+  border: #189a46;
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.gallery li.page-item a.page-link:hover {
+  color: #149a44;
+}
 /* end gallery */
+
+/* start footer */
+.footer {
+  background-color: #111;
+  padding: 40px 0 10px;
+}
+
+.footer-top {
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.footer-top .icon {
+  display: flex;
+}
+
+.footer-top .item h5 {
+  font-weight: 600;
+}
+
+.footer-top .item a {
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.footer-top .item a:hover {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+.footer-top .icon i:hover {
+  color: #fff !important;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-top .item ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+.footer-top .item li {
+  margin-bottom: 10px;
+}
+
+.footer-top .item li a:hover {
+  color: #fff !important;
+}
+
+.footer .line {
+  border: 0.05px groove gray;
+}
+
+.footer-bottom a {
+  color: red;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+/* end footer */
