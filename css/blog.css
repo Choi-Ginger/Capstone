@@ -53,6 +53,16 @@ header {
   color: #149a44;
 }
 
+.navbar-toggler {
+  background-color: #149a44;
+}
+
+.navbar-toggler span.navbar-toggler-icon {
+  color: #fff;
+  display: block;
+  margin-top: 5px;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
   text-transform: capitalize;
   transition: all 0.5s ease;
