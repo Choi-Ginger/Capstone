@@ -278,10 +278,11 @@ a.nav-link::before {
   padding: 40px 0 10px;
 }
 
-.footer-top {
-  grid-template-columns: 3fr 1fr 1fr 1fr;
-  gap: 20px;
-  padding-bottom: 40px;
+.footer-top .row .col {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .footer-top .icon {
@@ -323,6 +324,7 @@ a.nav-link::before {
 
 .footer .line {
   border: 0.05px groove gray;
+  margin-top: 50px;
 }
 
 .footer-bottom a {
