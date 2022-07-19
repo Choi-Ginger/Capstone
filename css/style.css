@@ -232,6 +232,10 @@ p {
   border: 0.05px groove gray;
 }
 
+.footer-bottom p {
+  text-align: center;
+}
+
 .footer-bottom a {
   color: red;
   text-decoration: none;
