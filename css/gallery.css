@@ -13,6 +13,58 @@
   margin-left: auto;
 }
 
+/* Light theme */
+#myBody {
+  background-color: white;
+}
+
+#switchButton {
+  background-color: white;
+}
+
+#switchButton .fa-sun {
+  display: none;
+}
+
+#switchButton .fa-moon {
+  display: block;
+}
+
+/* Dark theme */
+.dark#myBody {
+  background-color: black;
+}
+
+.dark #switchButton {
+  background-color: black;
+}
+
+.dark #switchButton .fa-sun {
+  display: block;
+  color: white;
+}
+
+.dark #switchButton .fa-moon {
+  display: none;
+}
+
+.dark #seti-header {
+  background-color: black;
+  color: white;
+}
+
+.dark .navbar {
+  background-color: black !important;
+}
+
+.dark .navbar-nav a.nav-link {
+  color: white;
+}
+
+.dark .gallery h3 {
+  color: white;
+}
+
 /* start header */
 header {
   background-color: #fff;
@@ -42,6 +94,7 @@ header {
 
 .navbar-collapse {
   flex-grow: 0;
+  padding-left: 460px;
 }
 
 .navbar .navbar-brand {
