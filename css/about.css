@@ -8,7 +8,7 @@
 /* start about  */
 .about_us {
     margin-top: 90px;
-    background: url(./img/banner4.jpg) no-repeat center;
+    background: url(/img/banner4.jpg) no-repeat center;
     background-size: cover;
     position: relative;
     z-index: 0;
@@ -145,7 +145,7 @@ a.read:hover{
     color: #189A46;
 }
 .feature-1 .feature-1sec {
-    background: url(./img/banner2.jpg) no-repeat center;
+    background: url(/img/banner2.jpg) no-repeat center;
     background-size: cover;
     position: relative;
     z-index: 1;

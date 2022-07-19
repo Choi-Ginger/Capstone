@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #151515;
+}
+/* start services */
+.services .picture{
+    margin-top: 90px;
+    background: url(/img/banner4.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    display: grid;
+    align-items: center;
+    padding: 45px 0;
+}
+.services .picture::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #0c0c0c;
+    opacity: .6;
+}
+.services .picture .title{
+    background: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+}
+.services .picture .active{
+    background: rgba(255, 255, 255, 0);
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+.services .picture .active a{
+    text-decoration: none;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0);
+    font-size: 18px;
+    padding-left: 10px;
+}
+.services .picture .active i{
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    padding-left: 10px;
+}
+.services .picture .active .item_title{
+    color: #189a46;
+}
+/* end services */
+
+/* start content-phto-info  */
+.content-photo-info{
+    padding: 48px 0;
+}
+.content-photo-info .container hr{
+    color: #444444;
+}
+.content-photo-info .container{
+    padding: 48px 25px;
+}
+.content-photo-info .content-photo-grids{
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.content-photo-info .img-fluid{
+    border-radius: 10px;
+    max-width: 551px;
+    margin: auto;
+}
+.content-photo-info .photo-right{
+    padding: 0 15px 0px 72px;
+}
+.content-photo-info  .sub-title{
+    color: #f53626;
+    font-size: 18px;
+    font-weight: 400;
+}
+.content-photo-info .hny-title{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.content-photo-info p{
+    color: #afafaf;
+    font-size: 20px;
+}
+.content-photo-info  .read{
+    font-size: 17px;
+    font-weight: 700;
+    border-bottom: 2px solid #189a46;
+    text-decoration: none;
+    color: #ddd;
+    margin-top: 20px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.content-photo-info .read:hover{
+    color: #189a46;
+}
+
+/* end content-phto-info */
+
+
+
