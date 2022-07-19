@@ -7,7 +7,6 @@
 
 /* start about  */
 .about_us {
-<<<<<<< HEAD:css/about.css
     margin-top: 90px;
     background: url(/img/banner4.jpg) no-repeat center;
     background-size: cover;
@@ -18,7 +17,6 @@
     padding: 16px 0;
     height: 50vh;
     
-=======
   margin-top: 90px;
   background: url(./img/banner4.jpg) no-repeat center;
   background-size: cover;
@@ -28,7 +26,6 @@
   align-items: center;
   padding: 16px 0;
   height: 50vh;
->>>>>>> fa6f7659681b75323246855885c73c800d822123:about.css
 }
 .container {
   width: 100%;
@@ -155,7 +152,6 @@ a.read:hover {
   color: #189a46;
 }
 .feature-1 .feature-1sec {
-<<<<<<< HEAD:css/about.css
     background: url(/img/banner2.jpg) no-repeat center;
     background-size: cover;
     position: relative;
@@ -163,7 +159,6 @@ a.read:hover {
     display: grid;
     align-items: center;
     padding: 48px 0;
-=======
   background: url(./img/banner2.jpg) no-repeat center;
   background-size: cover;
   position: relative;
@@ -171,7 +166,6 @@ a.read:hover {
   display: grid;
   align-items: center;
   padding: 48px 0;
->>>>>>> fa6f7659681b75323246855885c73c800d822123:about.css
 }
 .feature-1sec .sub-title {
   background: rgba(255, 255, 255, 0);
