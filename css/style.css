@@ -305,6 +305,21 @@ p {
 /* end chooseUs */
 
 /* start award */
+.award {
+  background-color: #149a44;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.award .item h3 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.award .item span {
+  font-size: 18px;
+  color: #fff;
+}
 /* end award */
 
 /* start plan */
