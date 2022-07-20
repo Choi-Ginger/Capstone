@@ -188,16 +188,162 @@ p {
 /* end about */
 
 /* start services */
+.services {
+  background-color: #f9f7fe;
+  padding: 50px 0;
+}
 
+.services .row {
+  padding: 30px 10px;
+}
+
+.services .item {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 30px 20px;
+}
+
+.services .item:hover {
+  background-color: rgba(243, 239, 253, 1);
+  transition: all 0.5s ease;
+}
+
+.services .item .icon i {
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.services .item .content h5 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.services .item .content p {
+  color: gray;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-left: 15px;
+}
+
+.services .item .content a {
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid green;
+  color: #000;
+  margin-left: 15px;
+}
+
+.services .item .content a:hover {
+  color: #149a44;
+  transition: all 0.3s;
+}
 /* end services */
 
 /* start chooseUs */
+.chooseUs {
+  background-color: #fff;
+  padding: 50px 0;
+  justify-content: space-between;
+}
+
+.chooseUs .row {
+  padding: 40px 0px;
+}
+
+.chooseUs .left img {
+  width: 75vh;
+  height: 80vh;
+  border-radius: 15px;
+  margin-left: 30px;
+}
+
+.chooseUs .right {
+  padding-top: 100px;
+}
+
+.chooseUs .right h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #f50000;
+  font-weight: 400;
+}
+
+.chooseUs .right h3 {
+  font-size: 40px;
+}
+
+.chooseUs .right p {
+  line-height: 1.6;
+  font-size: 17px;
+  color: #5b5565;
+}
+
+.chooseUs .right ul {
+  padding-left: 0 !important;
+}
+
+.chooseUs .right li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.chooseUs .right li span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: #149a44;
+  background-color: #f8f7fe;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 /* end chooseUs */
 
 /* start award */
+.award {
+  background-color: #149a44;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.award .item h3 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.award .item span {
+  font-size: 18px;
+  color: #fff;
+}
 /* end award */
 
 /* start plan */
+.plan {
+  padding: 50px 0;
+}
+
+.plan-top h5 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.plan-top h3 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.plan-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 5% auto;
+  margin-top: 0;
+  width: 90%;
+}
 /* end plan */
 
 /* start nutriton */
