@@ -2,16 +2,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #151515;
 }
-header {
-    background-color: #151515;
+/* Light theme */
+#myBody {
+    background-color: white;
+  }
+  
+  #switchButton {
+    background-color: white;
+  }
+  
+  #switchButton .fa-sun {
+    display: none;
+  }
+  
+  #switchButton .fa-moon {
+    display: block;
+  }
+  
+  /* Dark theme */
+  .dark#myBody {
+    background-color: black;
+  }
+  
+  .dark #switchButton {
+    background-color: black;
+  }
+  
+  .dark #switchButton .fa-sun {
+    display: block;
+    color: white;
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+  }
+  
+  .dark #seti-header {
+    background-color: black;
+    color: white;
+  }
+  
+  .dark .navbar {
+    background-color: black !important;
+  }
+  
+  .dark .navbar-nav a.nav-link {
+    color: white;
+  }
+  
+  .dark .gallery h3 {
+    color: white;
+  }
+  
+  /* start header */
+  header {
+    background-color: #fff;
     padding: 0px;
     transition: all 0.4s ease 0s;
+    height: 90px;
     display: grid;
     align-items: center;
-    box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
   }
+  
   .fixed-top {
     position: fixed;
     top: 40px;
@@ -19,13 +72,7 @@ header {
     left: 0;
     z-index: 1030;
   }
-   .container {
-    max-width: 1280px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+  
   .navbar {
     position: relative;
     display: flex;
@@ -33,25 +80,13 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-right: 25px;
-    padding-left: 25px;
-    color: #ddd;
   }
+  
   .navbar-collapse {
     flex-grow: 0;
+    padding-left: 460px;
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-family: "Jost", sans-serif;
-    font-family: "Jost", sans-serif;
-    font-weight: 600;
-  }
+  
   .navbar .navbar-brand {
     margin: 0;
     padding: 0;
@@ -60,6 +95,17 @@ header {
     text-transform: capitalize;
     color: #149a44;
   }
+  
+  .navbar-toggler {
+    background-color: #149a44;
+  }
+  
+  .navbar-toggler span.navbar-toggler-icon {
+    color: #fff;
+    display: block;
+    margin-top: 5px;
+  }
+  
   .navbar-expand-lg .navbar-nav .nav-link {
     text-transform: capitalize;
     transition: all 0.5s ease;
@@ -67,25 +113,22 @@ header {
     font-size: 20px;
     font-weight: 400;
     position: relative;
-    color: #ddd;
+    color: #000;
   }
-  .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
+  
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
     color: #149a44;
   }
-  .navbar-expand-lg .navbar-nav .nav-item {
-    padding: 0 12px;
-    transition: all 0.5s ease;
-    position: relative;
-  }
-  .navbar-expand-lg .navbar-nav .nav-item.active .nav-link:hover {
+  
+  .navbar-expand-lg .navbar-nav .nav-link.active {
     color: #149a44;
   }
-  .navbar-expand-lg .navbar-nav .nav-link:hover:before,
-  a.dropdown-item:hover:before {
+  
+  .navbar-expand-lg .navbar-nav .nav-link:hover::before {
     width: 100%;
   }
-  a.nav-link:before,
-  a.dropdown-item:before {
+  
+  a.nav-link::before {
     position: absolute;
     content: "";
     background: #149a44;
@@ -94,9 +137,40 @@ header {
     bottom: 13px;
     transition: all 0.5s;
   }
-.container{
-    padding: 48px 25px;
-}
+  
+  .dropdown-menu {
+    transform: translateX(-50px);
+    float: none;
+    min-width: 15rem;
+    padding: 1rem 0 0.3rem;
+  }
+  
+  .dropdown-menu a.dropdown-item {
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 14px;
+  }
+  
+  .dropdown-menu a.dropdown-item:hover {
+    color: #149a44;
+  }
+  
+  .dropdown-menu a.dropdown-item::after {
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: #149a44;
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    transition: all 0.5s;
+  }
+  
+  .dropdown-menu a.dropdown-item:hover::after {
+    width: 100px;
+  }
+  /* end header */
 /* start single1 */
 .blog_single1 {
     margin-top: 90px;
