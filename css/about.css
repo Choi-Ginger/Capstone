@@ -184,14 +184,6 @@ a.nav-link::before {
     padding: 16px 0;
     height: 50vh;
 }
-.container {
-  width: 100%;
-  max-width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
 .breadcrumb-bg-about h2.title {
   font-size: 50px;
   font-weight: 600;

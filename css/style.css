@@ -347,12 +347,77 @@ p {
 /* end plan */
 
 /* start nutriton */
+.nutrition .middle-section{
+  padding: 0px 100px;
+}
+.sub-title{
+  color: #f50000;
+  font-weight: 500;
+}
+.hny-title{
+  color: #121d16;
+  font-size: 40px;
+}
+.nutrition .middle-section .section-width p{
+  color: #afafaf;
+  font-size: 20px ;
+  text-align: center;
+}
+.position-relative {
+  position: relative !important;
+}
+
 /* end nutriton */
 
 /* start testimonials */
+.testimonials{
+  /* background: rgba(249, 247, 254, 1); */
+  background-color: #000;
+  
+}
+.testimonials .cusrtomer-layout .heading .sub-title{
+  font-size: 25px;
+  font-weight: 300;
+}
 /* end testimonials */
 
 /* start contact */
+.contact{
+  max-width: 1180px;
+  margin: auto;
+}
+.contact .row p.my-3{
+  color: #5b5565;
+  text-align: center;
+  font-size: 18px;
+  max-width: 650px;
+  margin: auto;
+}
+.contact .subscribe .subscribe-wthree-field {
+  justify-content: space-between;
+}
+.contact .subscribe input[type="email"] {
+  font-size: 16px;
+  color: var(--title-color);
+  border-radius: 10px;
+  padding: 0px 20px;
+  height: 60px;
+  flex-basis: 70%;
+  background: #fff;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.contact .subscribe button {
+  flex-basis: 27%;
+}
+.contact .subscribe .btn-style{
+  background: #149a44;
+  border: #149a44;
+  border-radius: 10px;
+}
+
+
 /* end contact */
 
 /* start footer */
