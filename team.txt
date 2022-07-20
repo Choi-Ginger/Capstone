@@ -1,0 +1,8 @@
+Thông tin nhóm:
+Thành viên
+    + Nguyễn Đức Hưng
+    + Nguyễn Đức Tân
+Đề tài project Capstone: Pooch Care
+Các phần nav đã làm:
+    + Nguyễn Đức Hưng: Gallery.html - Blog.html - Contact.html (1 phần nhỏ của index.html)
+    + Nguyễn Đức Tân: about.html - services.html - blog_single.html (1 phần nhỏ của index.html)
