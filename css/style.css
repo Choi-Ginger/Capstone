@@ -323,6 +323,27 @@ p {
 /* end award */
 
 /* start plan */
+.plan {
+  padding: 50px 0;
+}
+
+.plan-top h5 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.plan-top h3 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.plan-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 5% auto;
+  margin-top: 0;
+  width: 90%;
+}
 /* end plan */
 
 /* start nutriton */
