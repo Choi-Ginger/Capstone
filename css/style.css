@@ -322,45 +322,25 @@ p {
 }
 /* end award */
 
-/* start plan */
-.plan {
-  padding: 50px 0;
-}
-
-.plan-top h5 {
-  font-size: 25px;
-  margin-bottom: 10px;
-}
-
-.plan-top h3 {
-  font-size: 35px;
-  margin-bottom: 30px;
-}
-
-.plan-bottom {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 0 5% auto;
-  margin-top: 0;
-  width: 90%;
-}
-/* end plan */
-
 /* start nutriton */
-.nutrition .middle-section{
+.nutrition {
+  padding: 70px 0 50px;
+}
+
+.nutrition .middle-section {
   padding: 0px 100px;
 }
-.sub-title{
+.sub-title {
   color: #f50000;
   font-weight: 500;
 }
-.hny-title{
+.hny-title {
   color: #121d16;
   font-size: 40px;
 }
-.nutrition .middle-section .section-width p{
+.nutrition .middle-section .section-width p {
   color: #afafaf;
-  font-size: 20px ;
+  font-size: 20px;
   text-align: center;
 }
 .position-relative {
@@ -369,24 +349,12 @@ p {
 
 /* end nutriton */
 
-/* start testimonials */
-.testimonials{
-  /* background: rgba(249, 247, 254, 1); */
-  background-color: #000;
-  
-}
-.testimonials .cusrtomer-layout .heading .sub-title{
-  font-size: 25px;
-  font-weight: 300;
-}
-/* end testimonials */
-
 /* start contact */
-.contact{
+.contact {
   max-width: 1180px;
   margin: auto;
 }
-.contact .row p.my-3{
+.contact .row p.my-3 {
   color: #5b5565;
   text-align: center;
   font-size: 18px;
@@ -411,12 +379,11 @@ p {
 .contact .subscribe button {
   flex-basis: 27%;
 }
-.contact .subscribe .btn-style{
+.contact .subscribe .btn-style {
   background: #149a44;
   border: #149a44;
   border-radius: 10px;
 }
-
 
 /* end contact */
 
